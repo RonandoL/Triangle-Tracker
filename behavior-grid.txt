@@ -1,0 +1,14 @@
+Behavior Grid
+
+lengths of the sides of a triangle
+
+BEHAVIOR                INPUT EXAMPLE (side lengths)           OUTPUT EXAMPLE
+is it equilateral?     (60, 60, 60)                            true
+is it isosceles?       (60, 60, 40)                            true
+is it scalene?         (60, 70, 80)                            true
+is it a triangle?      (70, 200, 70)                           false
+
+1) equilateral: all three sides are equal
+2) isosceles: 2 sides of equal length
+3) scalene: all its sides of different length
+4) NOT a triangle
