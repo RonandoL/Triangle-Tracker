@@ -14,7 +14,7 @@ var triangleTracker = function(sideA, sideB, sideC) {
 
 // Interface Logic
 $(document).ready(function() {
-  $(".makeTriangle").submit(function(event) {
+  $("form.triangle").submit(function(event) {
     var sideA = parseInt($("input#sideA").val());
     var sideB = parseInt($("input#sideB").val());
     var sideC = parseInt($("input#sideC").val());
@@ -27,4 +27,6 @@ $(document).ready(function() {
 
     event.preventDefault();
     });
+
+
 });
